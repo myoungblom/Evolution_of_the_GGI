@@ -25,7 +25,7 @@ mds <- as.data.frame(fit$points)
 colnames(mds) <- c("coord1","coord2")
 mds$file <- rownames(mds)
 mds$isolate <- str_split_fixed(mds$file,"[.]",2)[,1]
-mds <- points %>% mutate(ggi=case_when(isolate %in% ggineg ~ "neg",
+mds <- mds %>% mutate(ggi=case_when(isolate %in% ggineg ~ "neg",
                                           isolate %in% ggipos ~ "pos"))
 mds$ggi <- as.factor(mds$ggi)
 
