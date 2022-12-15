@@ -5,9 +5,9 @@ Working title: "The Gonococcal Genetic Island defines distinct sub-populations o
 ### Figure 5
 **core\_gene\_alignment[...]**: *N. gonorrhoeae* core genome alignment and related files including VCF from SnpSites and VCF converted for use with Vcflib by vcflibConversion.sh  
 **ggi\_scoary\_traits.csv**: ggi presence absence  
-**scoaryToVcflibFst.py**: runs vcflib outlier analysis and calculates null distribution using phenotype file and vcf   
+**scoaryToVcflibFst.py**: runs vcflib Fst outlier analysis and calculates null distribution using phenotype file and vcf   
 **vcflibConversion.sh**: converts SnpSites VCF for use with Vcflib  
-**fst.sh** - steps for running fst outlier analysis  
+**fst.sh** - steps for running Fst outlier analysis  
 **GCFstManhattan.R**: script for making Figure 5 using fst oulier and homoplasy results  
 
 ##### homoplasy/
