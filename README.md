@@ -1,6 +1,5 @@
 # Evolution of the GGI
-Scripts and data associated with Figures 5-8 of GGI manuscript.
-Working title: "The Gonococcal Genetic Island defines distinct sub-populations of *Neisseria gonorrhoeae*"  
+Scripts and data associated with Figures 5-8 of "The Gonococcal Genetic Island defines distinct sub-populations of *Neisseria gonorrhoeae*"  
 
 ### Figure 5
 **core\_gene\_alignment[...]**: *N. gonorrhoeae* core genome alignment and related files including VCF from SnpSites and VCF converted for use with Vcflib by vcflibConversion.sh  
